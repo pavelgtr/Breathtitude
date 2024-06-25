@@ -19,7 +19,41 @@
 		47B4CEB829CE09A200EFF41A /* Tony Robbins Priming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEB729CE09A200EFF41A /* Tony Robbins Priming.mp3 */; };
 		47B4CEBA29CE09B100EFF41A /* Pavel's Meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEB929CE09B100EFF41A /* Pavel's Meditation.mp3 */; };
 		47B4CEBC29CE09BB00EFF41A /* Wim Hof Breathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEBB29CE09BB00EFF41A /* Wim Hof Breathing.mp3 */; };
+		47E7A8DC2C2B4B4800A7C762 /* Breathitude_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7A8DB2C2B4B4800A7C762 /* Breathitude_WatchApp.swift */; };
+		47E7A8DE2C2B4B4800A7C762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7A8DD2C2B4B4800A7C762 /* ContentView.swift */; };
+		47E7A8E02C2B4B4900A7C762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E7A8DF2C2B4B4900A7C762 /* Assets.xcassets */; };
+		47E7A8E32C2B4B4900A7C762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E7A8E22C2B4B4900A7C762 /* Preview Assets.xcassets */; };
+		47E7A8E62C2B4B4900A7C762 /* Breathitude Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 47E7A8D92C2B4B4800A7C762 /* Breathitude Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		47E7A8EC2C2B68A200A7C762 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7A8EB2C2B68A200A7C762 /* MenuView.swift */; };
+		47E7A8EE2C2B691600A7C762 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E7A8ED2C2B691600A7C762 /* PlayerView.swift */; };
+		47E7A8FA2C2B6FD700A7C762 /* Tony Robbins Priming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEB729CE09A200EFF41A /* Tony Robbins Priming.mp3 */; };
+		47E7A8FB2C2B6FD900A7C762 /* Pavel's Meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEB929CE09B100EFF41A /* Pavel's Meditation.mp3 */; };
+		47E7A8FC2C2B6FDC00A7C762 /* Wim Hof Breathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEBB29CE09BB00EFF41A /* Wim Hof Breathing.mp3 */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47E7A8E42C2B4B4900A7C762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4774F8B729CA1A14003E37C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E7A8D82C2B4B4800A7C762;
+			remoteInfo = "Breathitude Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47E7A8E72C2B4B4900A7C762 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				47E7A8E62C2B4B4900A7C762 /* Breathitude Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		473457A32C29E1010033AA29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +70,13 @@
 		47B4CEB729CE09A200EFF41A /* Tony Robbins Priming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tony Robbins Priming.mp3"; sourceTree = "<group>"; };
 		47B4CEB929CE09B100EFF41A /* Pavel's Meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pavel's Meditation.mp3"; sourceTree = "<group>"; };
 		47B4CEBB29CE09BB00EFF41A /* Wim Hof Breathing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wim Hof Breathing.mp3"; sourceTree = "<group>"; };
+		47E7A8D92C2B4B4800A7C762 /* Breathitude Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breathitude Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E7A8DB2C2B4B4800A7C762 /* Breathitude_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathitude_WatchApp.swift; sourceTree = "<group>"; };
+		47E7A8DD2C2B4B4800A7C762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47E7A8DF2C2B4B4900A7C762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E7A8E22C2B4B4900A7C762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47E7A8EB2C2B68A200A7C762 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		47E7A8ED2C2B691600A7C762 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +85,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				473457A42C29E1010033AA29 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E7A8D62C2B4B4800A7C762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				4774F8C129CA1A14003E37C6 /* Breathitude */,
+				47E7A8DA2C2B4B4800A7C762 /* Breathitude Watch Watch App */,
 				4774F8C029CA1A14003E37C6 /* Products */,
 				473457A22C29E1000033AA29 /* Frameworks */,
 			);
@@ -71,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				4774F8BF29CA1A14003E37C6 /* Breathitude.app */,
+				47E7A8D92C2B4B4800A7C762 /* Breathitude Watch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +152,27 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		47E7A8DA2C2B4B4800A7C762 /* Breathitude Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				47E7A8DB2C2B4B4800A7C762 /* Breathitude_WatchApp.swift */,
+				47E7A8DD2C2B4B4800A7C762 /* ContentView.swift */,
+				47E7A8EB2C2B68A200A7C762 /* MenuView.swift */,
+				47E7A8ED2C2B691600A7C762 /* PlayerView.swift */,
+				47E7A8DF2C2B4B4900A7C762 /* Assets.xcassets */,
+				47E7A8E12C2B4B4900A7C762 /* Preview Content */,
+			);
+			path = "Breathitude Watch Watch App";
+			sourceTree = "<group>";
+		};
+		47E7A8E12C2B4B4900A7C762 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47E7A8E22C2B4B4900A7C762 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,14 +183,33 @@
 				4774F8BB29CA1A14003E37C6 /* Sources */,
 				4774F8BC29CA1A14003E37C6 /* Frameworks */,
 				4774F8BD29CA1A14003E37C6 /* Resources */,
+				47E7A8E72C2B4B4900A7C762 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E7A8E52C2B4B4900A7C762 /* PBXTargetDependency */,
+			);
+			name = Breathitude;
+			productName = "Understanding Auto Layuout";
+			productReference = 4774F8BF29CA1A14003E37C6 /* Breathitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47E7A8D82C2B4B4800A7C762 /* Breathitude Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E7A8EA2C2B4B4900A7C762 /* Build configuration list for PBXNativeTarget "Breathitude Watch Watch App" */;
+			buildPhases = (
+				47E7A8D52C2B4B4800A7C762 /* Sources */,
+				47E7A8D62C2B4B4800A7C762 /* Frameworks */,
+				47E7A8D72C2B4B4800A7C762 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Breathitude;
-			productName = "Understanding Auto Layuout";
-			productReference = 4774F8BF29CA1A14003E37C6 /* Breathitude.app */;
+			name = "Breathitude Watch Watch App";
+			productName = "Breathitude Watch Watch App";
+			productReference = 47E7A8D92C2B4B4800A7C762 /* Breathitude Watch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,11 +219,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					4774F8BE29CA1A14003E37C6 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					47E7A8D82C2B4B4800A7C762 = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
@@ -151,6 +244,7 @@
 			projectRoot = "";
 			targets = (
 				4774F8BE29CA1A14003E37C6 /* Breathitude */,
+				47E7A8D82C2B4B4800A7C762 /* Breathitude Watch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -165,6 +259,18 @@
 				47B4CEBC29CE09BB00EFF41A /* Wim Hof Breathing.mp3 in Resources */,
 				4774F8CC29CA1A15003E37C6 /* Assets.xcassets in Resources */,
 				47B4CEBA29CE09B100EFF41A /* Pavel's Meditation.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E7A8D72C2B4B4800A7C762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E7A8FB2C2B6FD900A7C762 /* Pavel's Meditation.mp3 in Resources */,
+				47E7A8FC2C2B6FDC00A7C762 /* Wim Hof Breathing.mp3 in Resources */,
+				47E7A8E32C2B4B4900A7C762 /* Preview Assets.xcassets in Resources */,
+				47E7A8E02C2B4B4900A7C762 /* Assets.xcassets in Resources */,
+				47E7A8FA2C2B6FD700A7C762 /* Tony Robbins Priming.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +290,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47E7A8D52C2B4B4800A7C762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E7A8DE2C2B4B4800A7C762 /* ContentView.swift in Sources */,
+				47E7A8EC2C2B68A200A7C762 /* MenuView.swift in Sources */,
+				47E7A8DC2C2B4B4800A7C762 /* Breathitude_WatchApp.swift in Sources */,
+				47E7A8EE2C2B691600A7C762 /* PlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47E7A8E52C2B4B4900A7C762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E7A8D82C2B4B4800A7C762 /* Breathitude Watch Watch App */;
+			targetProxy = 47E7A8E42C2B4B4900A7C762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4774F8CD29CA1A15003E37C6 /* LaunchScreen.storyboard */ = {
@@ -202,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -262,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -315,6 +442,7 @@
 		4774F8D429CA1A15003E37C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +470,7 @@
 		4774F8D529CA1A15003E37C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +495,75 @@
 			};
 			name = Release;
 		};
+		47E7A8E82C2B4B4900A7C762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breathitude Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = RV3XS73HY7;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Breathitude Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "RiveraPavel.Understanding-Auto-Layuout";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RiveraPavel.Understanding-Auto-Layuout.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		47E7A8E92C2B4B4900A7C762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breathitude Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = RV3XS73HY7;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Breathitude Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "RiveraPavel.Understanding-Auto-Layuout";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RiveraPavel.Understanding-Auto-Layuout.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -383,6 +581,15 @@
 			buildConfigurations = (
 				4774F8D429CA1A15003E37C6 /* Debug */,
 				4774F8D529CA1A15003E37C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E7A8EA2C2B4B4900A7C762 /* Build configuration list for PBXNativeTarget "Breathitude Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E7A8E82C2B4B4900A7C762 /* Debug */,
+				47E7A8E92C2B4B4900A7C762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
