@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473457A42C29E1010033AA29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473457A32C29E1010033AA29 /* AVFoundation.framework */; };
+		475D4EF429CA604E008725CE /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475D4EF329CA604E008725CE /* PlayerViewController.swift */; };
+		4774F8C329CA1A14003E37C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774F8C229CA1A14003E37C6 /* AppDelegate.swift */; };
+		4774F8C529CA1A14003E37C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774F8C429CA1A14003E37C6 /* SceneDelegate.swift */; };
+		4774F8C729CA1A14003E37C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774F8C629CA1A14003E37C6 /* ViewController.swift */; };
+		4774F8CC29CA1A15003E37C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4774F8CB29CA1A15003E37C6 /* Assets.xcassets */; };
+		4774F8CF29CA1A15003E37C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4774F8CD29CA1A15003E37C6 /* LaunchScreen.storyboard */; };
+		4774F8D729CA1B4D003E37C6 /* UIColor Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774F8D629CA1B4D003E37C6 /* UIColor Extension.swift */; };
+		47B4CEB529CE034400EFF41A /* SelectProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B4CEB429CE034400EFF41A /* SelectProgram.swift */; };
+		47B4CEB829CE09A200EFF41A /* Tony Robbins Priming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEB729CE09A200EFF41A /* Tony Robbins Priming.mp3 */; };
+		47B4CEBA29CE09B100EFF41A /* Pavel's Meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEB929CE09B100EFF41A /* Pavel's Meditation.mp3 */; };
+		47B4CEBC29CE09BB00EFF41A /* Wim Hof Breathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47B4CEBB29CE09BB00EFF41A /* Wim Hof Breathing.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		473457A32C29E1010033AA29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		475D4EF329CA604E008725CE /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		4774F8BF29CA1A14003E37C6 /* Breathitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breathitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4774F8C229CA1A14003E37C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4774F8C429CA1A14003E37C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4774F8C629CA1A14003E37C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4774F8CB29CA1A15003E37C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4774F8CE29CA1A15003E37C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4774F8D029CA1A15003E37C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4774F8D629CA1B4D003E37C6 /* UIColor Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor Extension.swift"; sourceTree = "<group>"; };
+		47B4CEB429CE034400EFF41A /* SelectProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProgram.swift; sourceTree = "<group>"; };
+		47B4CEB729CE09A200EFF41A /* Tony Robbins Priming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tony Robbins Priming.mp3"; sourceTree = "<group>"; };
+		47B4CEB929CE09B100EFF41A /* Pavel's Meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pavel's Meditation.mp3"; sourceTree = "<group>"; };
+		47B4CEBB29CE09BB00EFF41A /* Wim Hof Breathing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wim Hof Breathing.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4774F8BC29CA1A14003E37C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473457A42C29E1010033AA29 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473457A22C29E1000033AA29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				473457A32C29E1010033AA29 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4774F8B629CA1A14003E37C6 = {
+			isa = PBXGroup;
+			children = (
+				4774F8C129CA1A14003E37C6 /* Breathitude */,
+				4774F8C029CA1A14003E37C6 /* Products */,
+				473457A22C29E1000033AA29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4774F8C029CA1A14003E37C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4774F8BF29CA1A14003E37C6 /* Breathitude.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4774F8C129CA1A14003E37C6 /* Breathitude */ = {
+			isa = PBXGroup;
+			children = (
+				4774F8C229CA1A14003E37C6 /* AppDelegate.swift */,
+				4774F8C429CA1A14003E37C6 /* SceneDelegate.swift */,
+				475D4EF329CA604E008725CE /* PlayerViewController.swift */,
+				4774F8C629CA1A14003E37C6 /* ViewController.swift */,
+				47B4CEB429CE034400EFF41A /* SelectProgram.swift */,
+				4774F8CB29CA1A15003E37C6 /* Assets.xcassets */,
+				4774F8CD29CA1A15003E37C6 /* LaunchScreen.storyboard */,
+				4774F8D029CA1A15003E37C6 /* Info.plist */,
+				4774F8D629CA1B4D003E37C6 /* UIColor Extension.swift */,
+				47B4CEBD29CE09D700EFF41A /* Sounds */,
+			);
+			path = Breathitude;
+			sourceTree = "<group>";
+		};
+		47B4CEBD29CE09D700EFF41A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				47B4CEB729CE09A200EFF41A /* Tony Robbins Priming.mp3 */,
+				47B4CEB929CE09B100EFF41A /* Pavel's Meditation.mp3 */,
+				47B4CEBB29CE09BB00EFF41A /* Wim Hof Breathing.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4774F8BE29CA1A14003E37C6 /* Breathitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4774F8D329CA1A15003E37C6 /* Build configuration list for PBXNativeTarget "Breathitude" */;
+			buildPhases = (
+				4774F8BB29CA1A14003E37C6 /* Sources */,
+				4774F8BC29CA1A14003E37C6 /* Frameworks */,
+				4774F8BD29CA1A14003E37C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Breathitude;
+			productName = "Understanding Auto Layuout";
+			productReference = 4774F8BF29CA1A14003E37C6 /* Breathitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4774F8B729CA1A14003E37C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4774F8BE29CA1A14003E37C6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4774F8BA29CA1A14003E37C6 /* Build configuration list for PBXProject "Breathitude" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4774F8B629CA1A14003E37C6;
+			productRefGroup = 4774F8C029CA1A14003E37C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4774F8BE29CA1A14003E37C6 /* Breathitude */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4774F8BD29CA1A14003E37C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4774F8CF29CA1A15003E37C6 /* LaunchScreen.storyboard in Resources */,
+				47B4CEB829CE09A200EFF41A /* Tony Robbins Priming.mp3 in Resources */,
+				47B4CEBC29CE09BB00EFF41A /* Wim Hof Breathing.mp3 in Resources */,
+				4774F8CC29CA1A15003E37C6 /* Assets.xcassets in Resources */,
+				47B4CEBA29CE09B100EFF41A /* Pavel's Meditation.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4774F8BB29CA1A14003E37C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4774F8D729CA1B4D003E37C6 /* UIColor Extension.swift in Sources */,
+				4774F8C729CA1A14003E37C6 /* ViewController.swift in Sources */,
+				47B4CEB529CE034400EFF41A /* SelectProgram.swift in Sources */,
+				4774F8C329CA1A14003E37C6 /* AppDelegate.swift in Sources */,
+				4774F8C529CA1A14003E37C6 /* SceneDelegate.swift in Sources */,
+				475D4EF429CA604E008725CE /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4774F8CD29CA1A15003E37C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4774F8CE29CA1A15003E37C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4774F8D129CA1A15003E37C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4774F8D229CA1A15003E37C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4774F8D429CA1A15003E37C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV3XS73HY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Breathitude/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RiveraPavel.Understanding-Auto-Layuout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4774F8D529CA1A15003E37C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV3XS73HY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Breathitude/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RiveraPavel.Understanding-Auto-Layuout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4774F8BA29CA1A14003E37C6 /* Build configuration list for PBXProject "Breathitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4774F8D129CA1A15003E37C6 /* Debug */,
+				4774F8D229CA1A15003E37C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4774F8D329CA1A15003E37C6 /* Build configuration list for PBXNativeTarget "Breathitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4774F8D429CA1A15003E37C6 /* Debug */,
+				4774F8D529CA1A15003E37C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4774F8B729CA1A14003E37C6 /* Project object */;
+}
